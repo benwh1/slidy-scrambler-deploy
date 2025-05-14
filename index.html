@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <link rel="stylesheet" href="style.css">
+    <title>15 Puzzle Scrambler</title>
+    <script type="module">
+        import init from "./slidy_scrambler.js";
+        await init("./slidy_scrambler_bg.wasm");
+    </script>
+</head>
+
+<body>
+    <div class="page">
+        <table id="main-table"></table>
+        <div class="separator"></div>
+        <table id="extras-table"></table>
+    </div>
+</body>
+
+</html>
